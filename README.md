@@ -31,7 +31,7 @@ What this Face recognition system does is:-
 - It does not fully function in difficult situations in terms of lighting and weather.
 
 # Team Members
-Hermela Getnet
+* Hermela Getnet
 Atsedemariam Bizuneh
 Adanu Addis
 

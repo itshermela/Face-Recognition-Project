@@ -21,7 +21,6 @@ Limitations/Challenges
 - It cannot be applied to recognize multiple persons at a time.
 - It does not fully function in difficult situations in terms of lighting and weather.
 
-Conclusion
 
 
 

@@ -15,8 +15,7 @@ What this Face recognition system does is:-
 * Recognize known/trained faces (faces in the dataset) who are infront of the webcam and speaks who he/she is to the visually impaired person.
 * When a new person introduces him/herself to the visually impaired person, the system automatically records his/her name in the web microphone and puts it in .wav format file.
 * The system then converts the recorded voice into a text file(name of the person) via STT (speech to text).
-* And then captures and dynamically saves the face-data of the new person to the dataset by mapping it with the converted text file or name of the person.
-* When the newly added face-image of the person
+* And then captures and dynamically saves the face-data of the new person to the existing dataset by mapping it with the converted text file or name of the person.
 * espeak speech synthesizer will speak the name of the person (by matching it to the recognized face of the person) to the visually impaired person.
 
 # Why is it helpful?

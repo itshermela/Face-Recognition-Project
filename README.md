@@ -20,10 +20,10 @@ What this Face recognition system does is:-
 
 # Why is it helpful?
 
-* This Face recognition system is mainly important for problems that are related to VIPs which overcomes face recognition problems faced by them.
-* Aims at expanding possibilities to people with vision loss to achieve their full potential in any working environment (especially if it is integrated with eyeglass).
+* This Face recognition system is mainly important for problems that are related to VIPs to overcome face recognition problems faced by them.
+* Aims at expanding possibilities to people with vision loss to achieve their full potential in any working environment (especially if it can be integrated with eyeglass).
 * Increases VIP’s confidence by recognizing a person in seconds.
-* Simplifying the life of VIPs and let them be aware of their surroundings.
+* Simplify the life of VIPs and let them be aware of their surroundings.
 
 # Limitations/Challenges
 

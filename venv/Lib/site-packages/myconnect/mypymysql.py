@@ -1,0 +1,24 @@
+#-*- coding:utf-8 -*-
+# @Ttime   :2019/11/1012:35
+# @Author  :小芒
+# @Email   :yilandj@163.com
+# @File    :mypymysql.py
+# @software:PyCharm Community Edition
+import pymysql
+
+class mypymysql(pymysql):
+    def connect(self,host,user,password,token):
+        conn = pymysql.connect(host, user, password, db='db_campus', charset='utf8')
+        cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
+        sql = "select * from tb_user where token = '%s'" % token
+        # 4.执行sql语句
+        cursor.execute(sql)
+        # 5.处理结果集
+        # 获取一条数据
+        one = cursor.fetchone()
+        hostIP = one['host']
+        port = one['port']
+        username = one['name']
+        password = one['password']
+        conn = pymysql.connect(hostIP, user, password, db='db_campus', charset='utf8')
+        return conn

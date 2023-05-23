@@ -30,13 +30,3 @@ What this Face recognition system does is:-
 * The major limitaion is lack of integration with hardware tools such as eyeglass so as to make the system fully operatable and portable for the VIPs.
 * It cannot be applied to recognize multiple persons at a time.
 * It does not fully function in difficult situations in terms of lighting and weather.
-
-# Team Members
-
-* Hermela Getnet
-* Atsedemariam Bizuneh
-* Adanu Addis
-
-
-
-
